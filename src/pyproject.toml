@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyisotest"
+version = "0.0.1"
+dependencies = [
+ 'numpy'
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Pradyun Gedam", email = "pradyun@example.com"},
+  {name = "Tzu-Ping Chung", email = "tzu-ping@example.com"},
+  {name = "Another person"},
+  {email = "different.person@example.com"},
+]
+maintainers = [
+  {name = "Brett Cannon", email = "brett@example.com"}
+]
+description = "Lovely Spam! Wonderful Spam!"
+readme = "README.rst"
+license = {file = "LICENSE.txt"}
+keywords = ["egg", "bacon", "sausage", "tomatoes", "Lobster Thermidor"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
